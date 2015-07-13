@@ -4,3 +4,6 @@ script attached
 #mysql -u root -p
 #mysql> create database sql10minutes
 #mysql> use sql10minutes
+
+
+DONE!!!
