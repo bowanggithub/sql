@@ -4,6 +4,9 @@ script attached
 #mysql -u root -p
 #mysql> create database sql10minutes
 #mysql> use sql10minutes
+The book is DONE!!!
 
 
-DONE!!!
+Now doing practice from: www.w3resource.com/mysql-exercises/
+#mysql> create database wrpracti_bookinfo
+#mysql> use wrpracti_bookinfo
