@@ -1,0 +1,2 @@
+ALTER TABLE job_history
+DROP FOREIGN KEY fk_job_id;

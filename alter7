@@ -1,0 +1,4 @@
+ALTER TABLE locations
+DROP state_province,
+ADD state varchar(25)
+AFTER city;
