@@ -1,0 +1,3 @@
+INSERT INTO countries VALUES(501,'India',102);
+INSERT INTO countries(region_id) VALUES(109);
+INSERT INTO countries(country_name,region_id) VALUES('Australia',121);

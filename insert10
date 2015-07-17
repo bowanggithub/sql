@@ -1,0 +1,2 @@
+INSERT INTO countries(country_name,region_id)
+VALUES('India',185),('Japan',102);

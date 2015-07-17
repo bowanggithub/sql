@@ -1,0 +1,2 @@
+INSERT INTO countries VALUES('C0001','India',1001),
+('C0002','USA',1007),('C0003','UK',1003);

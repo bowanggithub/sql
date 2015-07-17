@@ -1,0 +1,2 @@
+INSERT INTO countries
+VALUES(501,'India',185);
