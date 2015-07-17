@@ -1,0 +1,9 @@
+UPDATE employees
+SET salary=salary*1.25
+WHERE department_id=40;
+UPDATE employees
+SET salary=salary*1.15
+WHERE department_id=90;
+UPDATE employees
+SET salary=salary*1.10
+WHERE department_id=110;
