@@ -1,0 +1,5 @@
+SELECT CONCAT(first_name,' ', last_name) AS name,
+department_id
+FROM employees
+WHERE department_id BETWEEN 30 AND 100
+ORDER BY department_id;
