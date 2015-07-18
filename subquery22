@@ -1,0 +1,4 @@
+SELECT DISTINCT salary FROM employees e
+WHERE (SELECT COUNT(DISTINCT salary)
+FROM employees
+WHERE salary> e.salary)=3;

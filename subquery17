@@ -1,0 +1,3 @@
+SELECT DISTINCT salary FROM employees AS e
+WHERE (SELECT COUNT(DISTINCT salary) from employees
+WHERE salary<= e.salary)=4;

@@ -1,0 +1,3 @@
+SELECT * FROM
+(SELECT * FROM employees ORDER BY employee_id DESC LIMIT 10) AS last10
+ORDER BY employee_id;
