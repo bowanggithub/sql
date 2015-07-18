@@ -1,0 +1,2 @@
+SELECT first_name, last_name, salary, salary*0.12 AS 'PF'
+FROM employees;
