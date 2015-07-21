@@ -10,3 +10,4 @@ The book is DONE!!!
 Now doing practice from: www.w3resource.com/mysql-exercises/
 #mysql> create database wrpracti_bookinfo;
 #mysql> use wrpracti_bookinfo;
+The practice is DONE!!!
