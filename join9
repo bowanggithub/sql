@@ -1,0 +1,4 @@
+SELECT department_name, CONCAT(first_name, last_name) AS manager_name, city
+FROM employees AS e, departments AS d, locations AS l
+WHERE e.employee_id=d.manager_id
+AND d.location_id=l.location_id;

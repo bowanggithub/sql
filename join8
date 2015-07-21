@@ -1,0 +1,5 @@
+SELECT DISTINCT d.department_id, d.department_name,
+d.manager_id, m.first_name
+FROM employees AS m, departments AS d
+WHERE m.employee_id=d.manager_id
+ORDER BY department_id;

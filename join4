@@ -1,0 +1,4 @@
+SELECT e.employee_id, e.first_name, e.last_name, e.manager_id, m.last_name
+FROM employees AS e, employees AS m
+WHERE e.manager_id=m.employee_id
+ORDER BY e.employee_id;

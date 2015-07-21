@@ -1,0 +1,3 @@
+SELECT job_title, AVG(salary) FROM employees, jobs
+WHERE employees.job_id=jobs.job_id
+GROUP BY job_title;

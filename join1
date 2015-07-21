@@ -1,0 +1,4 @@
+SELECT DISTINCT departments.location_id, street_address, city, state_province, country_name
+FROM departments, locations, countries
+WHERE departments.location_id=locations.location_id
+AND locations.country_id=countries.country_id;

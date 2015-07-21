@@ -1,0 +1,4 @@
+SELECT d.department_name, COUNT(*)
+FROM employees AS e, departments AS d
+WHERE e.department_id=d.department_id
+GROUP BY d.department_id;

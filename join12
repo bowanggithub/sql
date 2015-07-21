@@ -1,0 +1,4 @@
+SELECT jh.*
+FROM job_history AS jh, employees AS e
+WHERE jh.employee_id=e.employee_id
+AND salary>10000;

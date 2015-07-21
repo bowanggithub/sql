@@ -1,0 +1,5 @@
+SELECT e.employee_id, job_title, end_date-start_date AS 'number of days'
+FROM employees AS e, job_history AS jh, jobs AS j
+WHERE e.employee_id=jh.employee_id
+AND jh.job_id=j.job_id
+AND jh.department_id=90;

@@ -1,0 +1,4 @@
+SELECT department_name, first_name, last_name, hire_date, salary
+FROM employees AS e, departments AS d
+WHERE d.manager_id=e.employee_id
+AND (CURDATE()-hire_date)/365>15;
